@@ -773,7 +773,7 @@ void menu3()
                 printf("Input Salah\n          ");
                 printf("Pencet Tombol Apapun\n ");
                 getch();
-                tanyakelling();
+                tanyaluper();
             }
         }
     void lutra()
@@ -859,7 +859,7 @@ void menu3()
                 printf("Input Salah\n          ");
                 printf("Pencet Tombol Apapun\n ");
                 getch();
-                tanyalutra();
+                tanyalulay();
             }
         }
     void luling()
