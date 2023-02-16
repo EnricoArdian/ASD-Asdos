@@ -207,7 +207,7 @@ void menu3()
         printf("Masukan Angka Kedua   : ");
         scanf("%f",&angka2);
         hasil=angka1/angka2;
-        printf("Hasil Pembagian dari %.2f + %.2f adalah %.2f\n", angka1,angka2,hasil);
+        printf("Hasil Pembagian dari %.2f \ %.2f adalah %.2f\n", angka1,angka2,hasil);
         printf("Pencet Tombol Apapun    ");
         getch();
         tanyabagi();
