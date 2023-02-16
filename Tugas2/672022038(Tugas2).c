@@ -207,7 +207,7 @@ void menu3()
         printf("Masukan Angka Kedua   : ");
         scanf("%f",&angka2);
         hasil=angka1/angka2;
-        printf("Hasil Pembagian dari %.2f / %.2f adalah %.2f\n", angka1,angka2,hasil);
+        printf("Hasil Pembagian dari %.2f + %.2f adalah %.2f\n", angka1,angka2,hasil);
         printf("Pencet Tombol Apapun    ");
         getch();
         tanyabagi();
@@ -446,6 +446,7 @@ void menu3()
         }
     void kuadrat()
     {
+        system("cls");
         float angka,hasil;
         printf("Masukan Bilangan Akar :");
         scanf("%f",&angka);
@@ -470,7 +471,7 @@ void menu3()
             switch(nanyakuadrat)
             {
             case 1:
-                tangen();
+                kuadrat();
                 break;
             case 0:
                 main();
@@ -480,7 +481,7 @@ void menu3()
                 printf("Input Salah\n          ");
                 printf("Pencet Tombol Apapun\n ");
                 getch();
-                tanyatangen();
+                tanyakuadrat();
             }
         }
     void kelmen1()
