@@ -88,7 +88,7 @@ void menu2()
 {
     system ("cls");
             printf("==================================\n");
-            printf("=======Keliling Luas Volume=======\n");
+            printf("============Sin Cos Tan===========\n");
             printf("==================================\n");
             printf(" \n1. Sinus                         ");
             printf(" \n2. Cosinus                       ");
